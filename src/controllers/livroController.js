@@ -4,7 +4,7 @@ import livro from "../models/livros.js";
 class LivroController{
     static async listarLivros(req, res){
         try{
-            const listaLivros = await autor.find({});
+            const listaLivros = await livro.find({});
             res.status(200).json(listaLivros);
         }
         catch(erro){
@@ -15,7 +15,7 @@ class LivroController{
     static async listarLivrosPorID(req, res){
         try{
             const id = req.params.id
-            const livroEncontrado = await autor.findById(id);
+            const livroEncontrado = await livro.findById(id);
             res.status(200).json(livroEncontrado);
         }
         catch(erro){

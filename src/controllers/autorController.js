@@ -47,9 +47,9 @@ class AutorController{
         try{
             const id = req.params.id;
             await autor.findByIdAndDelete(id);
-            res.status(200).json({message: "Autor deletado com sucesso!", autor: autorDeletado});
+            res.status(200).json({message: "Autor deletado com sucesso!"});
         }
-        catch{erro}{
+        catch(erro){
             res.status(500).json({message:`${erro.message} - Falha ao deletar autor`});
         }
     };
