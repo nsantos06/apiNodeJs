@@ -6,7 +6,7 @@ const routes = express.Router();
 //Rota para listar todos os autores
 routes.get("/autores", AutorController.listarAutores);
 //Rota para listar autor por ID
-routes.get("/autores/:id", AutorController.listarAutorPorID);
+routes.get("/autores/:id", AutorController.listarAutoresPorID);
 //Rota para cadastrar Autor
 routes.post("/autores", AutorController.cadastrarAutor);
 //Rota para atualizar autor
