@@ -1,3 +1,0 @@
-nicollasmk9
-1G1UZrXw1Wk21NTr
-mongodb+srv://nicollasmk9:1G1UZrXw1Wk21NTr@meucluster.gcrrtqx.mongodb.net/MinhaBiblioteca?retryWrites=true&w=majority&appName=MeuCluster
